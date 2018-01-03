@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#lightbox figure{
+    width: 350px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin: 20px 50px 20px 20px;
+}
+#lightbox figure>img{
+    width: 350px;
+    height: 250px;
+}
+#lightbox figure>figcaption{
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid white;
+    margin: auto;
+    display: none;
+    cursor: pointer;
+}
+#lightbox figure:hover figcaption{
+    display: block;
+}
+.lightboxMen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(67,67,67,0.5);
+    z-index: 1;
+    display: none;
+}
+.lightboxMen>img{
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+}
+.icon{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    line-height: 500px;
+}
+.icon>img:first-child{
+  float: left;
+    margin-top: 210px;
+    cursor: pointer;
+}
+.icon>img:nth-of-type(2){
+    float: right;
+    margin-top: 210px;
+    cursor: pointer;
+}
+.icon>img:nth-of-type(3){
+    float: right;
+    margin-right: -47px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
